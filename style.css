@@ -101,15 +101,24 @@
 }
 
 .input3 textarea {
-
-    width: 812px;
+    border: 1.5px solid #C1E2FF;
+    box-shadow: 16px 16px 9px rgba(63, 135, 202, 0.01), 9px 9px 8px rgba(63, 135, 202, 0.05), 4px 4px 6px rgba(63, 135, 202, 0.09), 1px 1px 3px rgba(63, 135, 202, 0.1), 0px 0px 0px rgba(63, 135, 202, 0.1);
+    border-radius: 4px;
+    width: 83%;
     height: 175px;
 }
 
 .rowm {
     text-align: center;
 }
-
+.input3 h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #4A83B6;
+    padding-top: 50px;
+}
 /* media */
 @media(max-width:830px) {
 
@@ -130,4 +139,12 @@
         font-size: 40px;
     }
 
+.input2 input,.input1 input{
+    position: inherit;
+}
+.input1 h6, .input2 h6{
+    position: relative;
+    left: auto;
+    right: auto;
+}
 }
