@@ -1,0 +1,133 @@
+/*navbar*/
+#nav li {
+    padding: 20px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    color: #5A5A5A;
+}
+
+/*home*/
+#home h2 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    color: #3871A8;
+}
+
+#home h3 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    color: #4A83B6;
+}
+
+.div1 {
+    margin-top: 3%;
+}
+
+
+
+
+
+
+
+
+/* get in touch*/
+#getit {
+    margin-top: 15%;
+}
+
+#getit h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    color: #3871A8;
+}
+
+.logo img {
+    margin: 2%;
+}
+
+.input1 input {
+    width: 385px;
+    height: 59px;
+    position: relative;
+    left: 13%;
+    z-index: -1;
+    border: 1.5px solid #C1E2FF;
+    box-shadow: 16px 16px 9px rgba(63, 135, 202, 0.01), 9px 9px 8px rgba(63, 135, 202, 0.05), 4px 4px 6px rgba(63, 135, 202, 0.09), 1px 1px 3px rgba(63, 135, 202, 0.1), 0px 0px 0px rgba(63, 135, 202, 0.1);
+    border-radius: 4px;
+}
+
+.input1 h6 {
+    position: relative;
+    right: 8%;
+    top: 20%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #4A83B6;
+
+}
+
+.input2 input {
+    position: relative;
+    right: 13%;
+    width: 385px;
+    height: 59px;
+    z-index: -1;
+    border: 1.5px solid #C1E2FF;
+    box-shadow: 16px 16px 9px rgba(63, 135, 202, 0.01), 9px 9px 8px rgba(63, 135, 202, 0.05), 4px 4px 6px rgba(63, 135, 202, 0.09), 1px 1px 3px rgba(63, 135, 202, 0.1), 0px 0px 0px rgba(63, 135, 202, 0.1);
+    border-radius: 4px;
+}
+
+.input2 h6 {
+    position: relative;
+    right: 33%;
+    top: 20%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #4A83B6;
+
+}
+
+.input3 textarea {
+
+    width: 812px;
+    height: 175px;
+}
+
+.rowm {
+    text-align: center;
+}
+
+/* media */
+@media(max-width:830px) {
+
+    #home h2 {
+        font-weight: 500;
+        font-size: 48px;
+    }
+
+    #home h3 {
+        font-weight: 300;
+        font-size: 20px;
+
+    }
+
+
+    #getit h2 {
+        font-weight: 400;
+        font-size: 40px;
+    }
+
+}
